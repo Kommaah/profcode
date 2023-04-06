@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="musica.html">Musicas para programar</a>
+            <a href="planos.html">Planos de ensino</a>
+            <a href="gratis.html">Aulas grátis</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+    <form method="get">
+       <fieldset>
+           <legend>Dados do Estudante</legend>
+           <label for="NP">
+           Nome: <input type="text" name="nome" id="NP"><br>
+           </label>
+           <label for="DI">
+           Data de finalização : <input type="date" name="inclusao" id="DI"><br>
+           </label>
+           <label for="DN">
+           Data de Nascimento : <input type="date" name="datanasci" id="DN"><br>
+           </label>
+           <label for="EM">
+           E-mail : <input type="email" name="email" id="EM"><br>
+           </label>
+           Gênero:<br>
+           <label for="g1">
+               <input type="radio" name="genero" value="1" id="g1">Feminino
+           </label> 
+            <label for="g2">
+                <input type="radio" name="genero" value="1" id="g2">Masculino
+            </label><br>
+           
+            Raça Declarada: <br>
+            <select name="raça">
+               <option value=""></option>
+               <option value="1">Preto</option>
+               <option value="2">Branco</option>
+               <option value="3">Pardo</option>
+               <option value="4">Amarelo</option>
+               <option value="5">Indigiena</option>
+            </select>
+            <br>
+            Como ficou sabendo do estudo:<br>
+            <input type="checkbox" name="estudo" value="convidado">Convidado
+            <br>
+            <input type="checkbox" name="estudo" value="internet">Internet
+            <br>
+            <input type="checkbox" name="estudo" value="amigos">Amigos
+            <br>
+            <input type="checkbox" name="estudo" value="familiares">Familiares
+            <br>
+            <input type="checkbox" name="estudo" value="outros">Outros
+            <br>
+            <button type="submit">Enviar</button>
+           </fieldset> 
+      </form>
+    <img src="imagens/obrigado.jpg">
+    </main> 
+    <footer>Desenvolvido por Diego - 2023</footer>
+</body>
+</html>
